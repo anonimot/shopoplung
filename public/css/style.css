@@ -17,7 +17,7 @@ body {
   padding: 0 0 135px 0;
   top: 0;
 
-  background-color: rgb(44, 182, 182);
+  background-color: rgb(233, 78, 31);
 }
 
 .intopbar {
@@ -31,7 +31,7 @@ body {
 }
 
 .buttonsearch {
-  background-color: rgb(44, 182, 182);
+  background-color: rgb(233, 78, 31);
   border: 3px solid white;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -92,7 +92,7 @@ span.socdoc {
 
 #tag {
   font-size: 12px;
-  color: rgb(44, 182, 182);
+  color: rgb(233, 78, 31);
   background: rgb(255, 255, 255);
   border-radius: 20px;
   padding: 3px 6px;
@@ -133,7 +133,7 @@ span.socdoc {
 
 .imglink:hover {
   border-radius: 3px;
-  border: 1px solid rgb(44, 182, 182);
+  border: 1px solid rgb(233, 78, 31);
 }
 
 hr {
@@ -148,11 +148,11 @@ chon {
 }
 
 a.contentlink {
-  color: rgb(88, 126, 252);
+  color: rgb(233, 78, 31);
 }
 
-a.contentlink:hover {
-  color: rgb(44, 182, 182);
+.contentlink:hover {
+  color: rgb(34, 31, 233);
 }
 
 i.action-page {
@@ -175,12 +175,12 @@ i.action-page:focus {
 }
 .olnb-content {
   text-align: left;
-  padding: 0 38% 0 0;
+  padding: 0 36% 0 0;
 }
 .xtc-content {
   text-align: right;
   padding: 0 0 0 40%;
-  color: tomato;
+  color: rgb(233, 78, 31);
 }
 
 .case-content {
@@ -196,7 +196,7 @@ ul {
 li {
   float: left;
   list-style: none;
-  width: 24.1%;
+  width: 19.1%;
   margin: 5px 5px 4px 5px;
   background-color: white;
 }
@@ -248,7 +248,7 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -0.5px;
   color: rgb(46, 46, 46);
-  padding: 1px 6px 1px;
+  padding: 2px;
   width: 100%;
   height: 40px;
   overflow: hidden;
@@ -261,13 +261,13 @@ li {
 
 .span-price {
   color: tomato;
-  padding: 1px 6px 1px;
+  padding: 1px 2px 0px 1px;
   text-align: left;
 }
 
 .span-price-cmt{
   color: rgb(105, 105, 105);
-  padding: 1px 1px 1px  35%;
+  padding: 1px 1px 1px  25%;
   font-size: 12px;
 }
 /* end hieu ung mo anh  */
