@@ -5,6 +5,6 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 app.listen(3000);
 
-app.get("/", function(req, res) {
+app.get("/home", function(req, res) {
     res.render("home");
 });

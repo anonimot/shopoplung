@@ -211,11 +211,26 @@ li {
   border: 1px solid white;
   border-radius: 3px;
   position: relative;
+  overflow: hidden;
 }
 
-.link-content:hover, .link-content:focus{
+.link-content:hover,
+.link-content:focus {
   border: 1px solid rgb(255, 38, 0);
   opacity: 0.8;
+}
+
+.div-link-ul{
+  padding: 0.5cm 0px 0px 0px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.img:hover{
+  transform: translateY(-15px);
 }
 
 .overlay {
@@ -232,16 +247,16 @@ li {
   background-color: rgb(255, 38, 0);
   transform-style: flat;
 }
-.overlay:hover{
+.overlay:hover {
   opacity: 1;
 }
 
-.text-overlay{
+.text-overlay {
   padding: 5px 0 5px 0;
   text-align: center;
   color: white;
   font-size: 15px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-item-cmt {
@@ -257,21 +272,14 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -0.5px;
   width: 100%;
-}
-
-.span-price {
   color: tomato;
   padding: 1px 2px 0px 1px;
-  text-align: left;
+  text-align: right;
 }
 
-.span-price-cmt{
-  color: rgb(105, 105, 105);
-  padding: 1px 1px 1px  25%;
-  font-size: 12px;
-}
+
+
 /* end hieu ung mo anh  */
-
 
 /* end content  */
 
